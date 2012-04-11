@@ -40,6 +40,11 @@ Then deploy the files in your local repo (beware if it is a release or a snapsho
 
 @$> mvn -DaltDeploymentRepository=snapshot-repo::default::file:PATH_TO/maven-repo/snapshots/ clean deploy@
 
+And commit and push your changes to github:
+
+bc. 
+$> git commit -m "MESSAGE"
+$> git push origin master
 
 h2. Greetings
 

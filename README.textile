@@ -1,9 +1,20 @@
-h1. This is the Ekito's public Maven repository !
+h1. Welcome in the Ekito's public Maven repository !
 
 
 h2. How to use it
 
 Add this in your @pom.xml@ file:
+
+bc. <repositories>
+    <repository>
+        <id>ekito-public-snapshots</id>
+        <url>https://raw.github.com/Ekito/maven-repo/master/snapshots</url>
+    </repository>
+    <repository>
+        <id>ekito-public-releases</id>
+        <url>https://raw.github.com/Ekito/maven-repo/master/releases</url>
+    </repository>
+</repositories>
 
 
 h2. To deploy in this Maven repository
@@ -25,8 +36,13 @@ Clone the git repository locally :
 
 @$> git clone git://github.com/Ekito/maven-repo.git@
 
-Then deploy the files in your local repo :
+Then deploy the files in your local repo (beware if it is a release or a snapshot !!!):
 
 @$> mvn -DaltDeploymentRepository=snapshot-repo::default::file:PATH_TO/maven-repo/snapshots/ clean deploy@
+
+
+h2. Greetings
+
+Thanks to "Cemerick":http://cemerick.com/2010/08/24/hosting-maven-repos-on-github/ for setting up this Maven repository.
 
 

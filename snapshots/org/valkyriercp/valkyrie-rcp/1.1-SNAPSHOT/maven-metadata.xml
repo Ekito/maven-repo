@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.valkyriercp</groupId>
+  <artifactId>valkyrie-rcp</artifactId>
+  <version>1.1-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20120411.140622</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20120411140622</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.1-20120411.140622-1</value>
+        <updated>20120411140622</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

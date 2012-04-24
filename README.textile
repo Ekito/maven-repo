@@ -34,7 +34,7 @@ bc.  <distributionManagement>
 
 Clone the git repository locally :
 
-@$> git clone git://github.com/Ekito/maven-repo.git@
+@$> git clone git@github.com:Ekito/maven-repo.git
 
 Then deploy the files in your local repo (beware if it is a release or a snapshot !!!):
 
